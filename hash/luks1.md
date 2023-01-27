@@ -42,3 +42,12 @@ The following hashes/ciphers/modes/key-sizes are supported as of 26JAN2023
 -   128  
 -   256 
 -   512
+
+2. Either run Hashcat directly against the encrypted container or snip the headers with the following commands:
+
+###### Snip LUKS1 headers to create a 2MB file that is more portable to crack.
+```
+dd if=encrypted.img of=header.luks bs=512 count=4097
+```
+
+###### Run Hashcat against encrypted.img or header.luks using mode 14600
