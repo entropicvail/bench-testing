@@ -19,6 +19,7 @@ CTRL+C
 sudo airodump-ng wlan1 -c [your channel number here] –bssid [your BSSID here] -w [name your capture file]
 ```
 
+
 3.       Connect a wireless device to your target SSID and check your CLI for the term “WPA Handshake Captured”.
 
 ###### Stop the scan
