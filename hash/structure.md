@@ -1,5 +1,7 @@
 ### Overview:
-Each tier for testing is defined below, including: the password used for all hashes in the respective tier; bits of entropy per password; hashes or required files for cracking; commands for Hashcat, John the Ripper enhanced with BitCracker, or basic brute force script.
+Each tier for testing is defined below, including: the password used for all hashes in the respective tier; bits of entropy per password; hashes or required files for cracking; commands for Hashcat, John the Ripper enhanced with BitCracker, or basic brute force script. 
+
+Use the naming convention as is, and place all hash files into a folder named 'hash' in the HOME directory; copy the individual scripts, knownpass.txt, and cracking programs (Hashcat, JtR, BitCracker) directly into HOME directory; run everything from the HOME directory - requires sudo.
 
 <hr style="border:2px solid gray">
 
